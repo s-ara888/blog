@@ -2,7 +2,7 @@
     font-family: 'font1';
     src: url(fonts/Figtree-.ttf);
     font-family: 'font2';
-    src: url(fonts/Figtree-Italic.ttf);
+    src: url(fonts/Figtree-ExtraBold.ttf);
 }
 body {
     background-color: #F2D34F;
@@ -54,5 +54,13 @@ h2 {
     font-family: 'font1' ,sans-serif;
     font-size: 14px;
     font-weight: lighter;
+}
+h3 {
+    text-align: left;
+    font-weight: bold;
+    font-family: 'font2',sans-serif;
+    font-size: 20px;
+    
+
 }
     
