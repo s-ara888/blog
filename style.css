@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'font1';
     src: url(fonts/Figtree-.ttf);
-    font-family: 'font2';
+    font-family: 'font22';
     src: url(fonts/Figtree-ExtraBold.ttf);
     font-family: 'font3';
     src: url(fonts/Figtree-Medium.ttf)
@@ -30,6 +30,10 @@ img {
     height: auto;
     border-radius: 10px ;
 }
+img:hover {
+    box-shadow: 5px 5px 0px #E5C43D;
+    border-radius: 10px;
+}
 
 @media (max-width: 600px) {
     img {
@@ -55,13 +59,18 @@ h1:hover {
 h2 {
     text-align: left;
     font-family: 'font1' ,sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: lighter;
 }
 h3 {
     text-align: left;
     font-family: 'font3',sans-serif;
     font-size: 20px;
+}
+h3:hover {
+    background-color: #E5C43D;
+    width: 250px;
+    padding-left: 10px;
 }
 p {
     text-align: left;
@@ -70,9 +79,16 @@ p {
     font-size: smaller;
     line-height: 1.5; 
 }
-.img2 {
+.author-img {
     width: 30px;
-    margin-right: 270px;
-    
+    margin-right: 270px;  
 }
-    
+.author-name {
+    margin-top: -30px;
+    margin-right: 125px;
+    font-family: 'font22',sans-serif;
+    font-weight: 800;
+    font-size: small;
+}
+
+
