@@ -13,12 +13,13 @@ body {
     background-color: white;
     padding: 25px;
     width: 300px;
-    height: 400px;
+    height: 410px;
     outline: black 1px solid;
     border-radius: 20px;
     margin-left: 40%;
     margin-top: 10%;
     text-align: center;
+    box-shadow: 10px 10px 0px gray;
     
 }
 .card:hover {
@@ -69,5 +70,9 @@ p {
     font-size: smaller;
     line-height: 1.5; 
 }
-
+.img2 {
+    width: 30px;
+    margin-right: 270px;
+    
+}
     
