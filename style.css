@@ -43,11 +43,16 @@ h1 {
     border-radius: 5px;
     background-color: #F2D34F;
     width: 65px;
-    
-    
+     
 }
 h1:hover {
     background-color: #E5C43D;
     cursor: pointer;
+}
+h2 {
+    text-align: left;
+    font-family: 'font1' ,sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
 }
     
