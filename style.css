@@ -16,17 +16,22 @@ body {
 .card:hover {
     box-shadow: 10px 10px 0px black;
 }
-.img {
+img {
     width: 100%;
     height: auto;
     border-radius: 10px solid ;
 }
 
 @media (max-width: 600px) {
-    .img {
+    img {
         width: 150px;
         height: 100px;
     }
+}
+h1 {
+    text-align: left;
+    font-size: 20px;
+    
 }
 
     
